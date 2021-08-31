@@ -1,0 +1,22 @@
+/* Primeiro bloco de conteúdo da página */
+#contentBlockIndex1 {
+  background-image: url("../images/backgrounds/cyberPBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90%;
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+/* Carrossel de index.html*/
+#indexCarousel {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Slides do carrossel */
+#indexCarousel img{
+  height: 100%;
+  width: 100%;
+}

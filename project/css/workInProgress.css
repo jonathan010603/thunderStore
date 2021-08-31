@@ -1,0 +1,17 @@
+#divWarning {
+  padding: 4%;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(25, 43, 70);
+  text-align: center;
+}
+
+.warning {
+  font-size: 10vh;
+  font-family: 'Bowlby One';
+  color: white;
+}
+
+#divWarning img {
+  
+}

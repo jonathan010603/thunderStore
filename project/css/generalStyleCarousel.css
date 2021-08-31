@@ -1,0 +1,63 @@
+.left, .right {
+/* Gradiente botões esq. dir. */
+background: -moz-linear-gradient(left, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+
+/* Legendas/textos dos slides */
+.homeSlidesText {
+  font-size: 4vh;
+  font-family: 'Bowlby One';
+  letter-spacing: 0.3vh;
+}
+
+/* Div legendas/textos dos slides */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.808);
+}
+
+.carousel-inner {
+  width: 100%;
+}
+
+.carousel-inner .item .active {
+  width: 100%;
+}
+
+.carousel-inner img {
+  width: 100%;
+}
+
+/* Hover carrossel */
+.carousel-inner:hover {
+  animation: pulse 1s infinite;
+  animation-direction: alternate;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+/* Animação "pulsar" (brilho) dos slides */
+@-webkit-keyframes pulse {
+  0% {
+    /* -webkit-transform: scale(1); */
+    -webkit-filter: brightness(100%);
+  }
+  100% {
+    /* -webkit-transform: scale(1.1); */
+    -webkit-filter: brightness(140%);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    /* transform: scale(1); */
+    filter: brightness(100%);
+  }
+  100% {
+    /* transform: scale(1.1); */
+    filter: brightness(140%);
+  }
+}
+

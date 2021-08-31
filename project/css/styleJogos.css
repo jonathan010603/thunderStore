@@ -1,0 +1,88 @@
+/* Publicidade topo */
+#publicityTopJogos {
+  height: 60vh;
+  background-image: url("../images/backgrounds/fundoPublicidade3.jpg");
+  background-size: cover;
+  width: 100%;
+  padding-top: 8%;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.1vh;
+}
+
+/* Logo de BO4 */
+.publicityImg {
+  height: 80%;
+  width: 50%;
+  text-align: center;
+  margin-left: 42%;
+  padding-left: 8%;
+  transition: 0.2s ease;
+}
+
+/* Hover logo de BO4 */
+.publicityImg:hover {
+  height: 82%;
+  width: 52%;
+}
+
+/* Primeiro bloco de conteúdo da página */
+#contentBlockJogos1 {
+  width: 100%;
+  padding-top: 2%;
+}
+
+/* Caixa com categorias de jogos */
+#divCategories {
+  width: 23%;
+  letter-spacing: 0.3vh;
+  font-size: 1.9vh;
+  height: 180vh;
+  margin-left: 1%;
+  transition: 0.2s ease;
+  padding-left: 1%;
+  padding-bottom: 1%;
+  text-align: left;
+  float: left;
+  margin-top: 5%;
+}
+
+/* Elementos anchor da div Categories */
+#divCategories a {
+  border-radius: 1vh 1vh 1vh 1vh;
+  padding: 2vh;
+  color: white;
+  transition: 0.2s ease;
+  font-family: 'Bowlby One';
+}
+
+/* Hover elementos anchor da div Categories */
+#divCategories a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+/* Textos com o nome de cada slider */
+.sliderInfo {
+  font-family: 'Bowlby One';
+  letter-spacing: 0.3vh;
+  font-size: 5vh;
+  transition: 0.2s ease;
+  text-align: center;
+  padding: 2%; 
+  margin-top: 7%;
+}
+
+/* Hover de cada sliderInfo */
+.sliderInfo:hover {
+  background-color: #000000;
+  color: white;
+  border-radius: 1vh 1vh 1vh 1vh;
+}
+
+/* Div com sliders */
+#divProducts {
+  width: 70%;
+  float: left;
+  margin-left: 3%;
+}
+

@@ -1,0 +1,31 @@
+/* Primeiro bloco de conteúdo */
+#contentBlockGiftC1 {
+  height: 200vh;
+  width: 100%;
+  padding-top: 2%;
+}
+
+#divCategoriesGiftC1 {
+  width: 13.4%;
+  letter-spacing: 0.3vh;
+  padding: 1%;
+  font-size: 1.9vh;
+  margin-left: 0.1%;
+  transition: 0.2s ease;
+  padding: 1%;
+  float: left;
+}
+
+#divCategoriesGiftC1 a {
+  font-family: 'Bowlby One';
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 1vh 1vh 1vh 1vh;
+  padding: 2vh;
+  text-align: justify;
+  color: white;
+  transition: 0.2s ease;
+}
+
+#divCategoriesGiftC1 a:hover {
+  background-color: rgb(0, 0, 0);
+}

@@ -1,0 +1,43 @@
+/* Publicidade do topo */
+#publicityTopPerif {
+  height: 80vh;
+  background-image: url("../products/periféricos/controllers/steamController.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.1vh;
+}
+
+#divCategoriesPerif {
+  width: 22%;
+  letter-spacing: 0.3vh;
+  padding: 1%;
+  font-size: 1.9vh;
+  margin-left: 0.1%;
+  transition: 0.2s ease;
+  padding: 1%;
+  float: left;
+}
+
+#divCategoriesPerif a {
+  font-family: 'Bowlby One';
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 1vh 1vh 1vh 1vh;
+  padding: 2vh;
+  text-align: justify;
+  color: white;
+  transition: 0.2s ease;
+}
+
+#divCategoriesPerif a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+/* Primeiro bloco de conteúdo */
+#contentBlockPerifericos1 {
+  height: 200vh;
+  width: 100%;
+  padding-top: 2%;
+}

@@ -1,0 +1,79 @@
+#vitrine {
+  width: 75%;
+  height:100%;
+  background-color: rgb(3, 28, 66);
+  float: left;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+  border-radius: 1vh 1vh 1vh 1vh;
+  padding-top: 3%;
+}
+  
+.productsDiv {
+  height: 28%;
+  width: 27%;
+  display: inline-block;
+  margin: 0 auto;
+  margin: 2%;
+  font-family: 'Bowlby One';
+  font-size: 2vh;
+  color: rgb(255, 255, 255);
+}
+  
+.productsDiv img {
+  height: 65%;
+  width: 80%;
+}
+  
+.productsDiv:hover {
+  animation: pulse 1s infinite;
+  animation-direction: alternate;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+  
+/* Animação "pulsar" (brilho) dos slides */
+@-webkit-keyframes pulse {
+  0% {
+    /* -webkit-transform: scale(1); */
+    -webkit-filter: brightness(100%);
+  }
+  100% {
+    /* -webkit-transform: scale(1.1); */
+    -webkit-filter: brightness(140%);
+  }
+  }
+  
+@keyframes pulse {
+  0% {
+    /* transform: scale(1); */
+    filter: brightness(100%);
+  }
+  100% {
+    /* transform: scale(1.1); */
+    filter: brightness(140%);
+  }
+}
+  
+.productName {
+  
+}
+  
+.price {
+  background-color: black;
+  color:  #ffffff;
+  padding: 3%;
+}
+  
+.comprar {
+  padding: 3%;
+  transition: 0.2s ease;
+  color: black;
+  margin-bottom: 4%;
+}
+  
+.comprar:hover {
+  background-color: black;
+  color: white; 
+}

@@ -1,0 +1,17 @@
+.termsBlock {
+  padding: 0 2% 2% 2%;
+}
+
+.termsTitles, .termsTexts, .termsSubTitles{
+  color: white;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.termsTitles {
+}
+
+.termsTexts {
+}
+
+.termsSubTitles {
+}
